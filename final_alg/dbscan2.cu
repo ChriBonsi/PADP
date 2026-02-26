@@ -18,7 +18,7 @@
 #include <thrust/fill.h>
 #include <thrust/scan.h>
 
-#include "/content/drive/MyDrive/PDPProject/SLINK/common.cuh"
+#include "/content/drive/MyDrive/PDPProject/BORUVKA/common.cuh"
 
 // ---------------------------------------------------------------------------
 // DATA STRUCTURES
@@ -159,7 +159,7 @@ __global__ __launch_bounds__(BLOCK_SIZE) void bfs_propagate_kernel(
 
 int main() {
   const std::string filename =
-      "/content/drive/MyDrive/PDPProject/GAIA_nearest_200000.csv";
+      "/content/drive/MyDrive/PDPProject/DATASET/GAIA_nearest_10000.csv";
   const float epsilon = 2.0f; // neighborhood radius for DBSCAN
   const int min_pts = 7;      // minimum neighbors to be a core point
 
