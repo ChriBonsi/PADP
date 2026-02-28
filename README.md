@@ -1,4 +1,4 @@
-# High-Performance Parallel Clustering and Minimum Spanning Tree Algorithms
+# Parallel Clustering and Minimum Spanning Tree Algorithms
 
 **Authors**: Bonsignore Christian, Ferrara Ludovico, Toma Elia
 
@@ -6,12 +6,13 @@
 This project implements high-performance parallel algorithms for astronomical data analysis, specifically focusing on density-based clustering and hierarchical single-linkage clustering. The primary objective is to evaluate the performance and accuracy of GPU-accelerated implementations against their sequential counterparts.
 
 ## Project Structure
+- `PDPProject.ipynb`: Main experimentation and benchmarking notebook.
 - `optimized_alg/`: Contains the optimized CUDA implementations (`gdbscan.cu`, `boruvka.cu`) and shared header extracted from the original implementation (`common.cuh`).
 - `original_alg/`: Reference implementations (`gdbscan.cu`, `parallel_slink.cu`).
-- `data/`: Dataset storage and management (`PDPProject/DATASET`).
-- `utils/`: Utility functions used to produce the output files (`PDPProject/UTILS`).
-- `output/`: Output .csv files (`PDPProject/OUTPUT`).
-- `PDPProject.ipynb`: Main experimentation and benchmarking notebook.
+- `dataset`: Dataset storage and management (`data/PDPProject/DATASET`).
+- `utility`: Utility functions used to produce the output files (`data/PDPProject/UTILS`).
+- `slink`: Slink implementation taken from the original repository (`data/PDPProject/SLINK`).
+- `output`: Output .csv files (`data/PDPProject/OUTPUT`).
 
 ## Setup and Usage
 

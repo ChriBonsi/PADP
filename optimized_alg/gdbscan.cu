@@ -18,7 +18,7 @@
 #include <thrust/fill.h>
 #include <thrust/scan.h>
 
-#include "/content/drive/MyDrive/PDPProject/BORUVKA/common.cuh"
+#include "/content/drive/MyDrive/PDPProject/UTILS/common.cuh"
 
 // ---------------------------------------------------------------------------
 // DATA STRUCTURES
