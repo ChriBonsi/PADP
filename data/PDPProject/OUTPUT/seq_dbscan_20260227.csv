@@ -1,3 +1,0 @@
-Input_Size,Num_Clusters,Threads_Per_Block,Blocks_Per_Grid,Num_Grids,Execution_Time_s
-10000,219,1,1,1,0.171122
-10000,219,1,1,1,0.207496
